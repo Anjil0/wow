@@ -1,0 +1,79 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0px;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+}
+
+.nav-logo {
+  display: flex;
+}
+
+.navtext,
+.navtext a {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.05cm;
+  color: #fff;
+  margin: 6px 0px 0px 6px;
+}
+
+.nav-logo img {
+  width: 40px;
+  height: auto;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 100px;
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffa500; /* Change color on hover */
+}
+
+.signin {
+  background-color: #ae00fe;
+  padding: 10px 20px; 
+  border-radius: 5px; 
+}
+
+.signin a {
+  font-weight: 600;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.signin a:hover {
+  font-weight: 600;
+  color: #c6e01b;
+  font-size: 15px;
+  text-decoration: none;
+}

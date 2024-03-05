@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.body{
+    background-image: url("../assets/bgImage.jpg"); /* Replace 'path/to/your/image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire container */
+    color: #fff; /* Text color for better readability */
+    padding: 100px; /* Adjust padding as needed */
+}
+
+.form-container {
+    background-color: #27328d;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px auto;
+}
+.form-container input[type="text"] {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.form-container input[type="submit"] {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-size: large;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #078f37;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover{
+    color: #771005;
+    background-color: #10976a;
+}

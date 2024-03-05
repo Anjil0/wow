@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.homepage {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("../assets/bgImage.jpg"); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire container */
+  color: #fff; /* Text color for better readability */
+  padding: 100px; /* Adjust padding as needed */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hometext {
+  margin-top: 100px;
+}
+
+.hometext h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 10px 0px 100px 480px;
+  text-align: center;
+}
+
+.hometext h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: -74px 0px 100px 400px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  margin: -82px 0px 130px 600px;
+  width: 560px;
+  justify-content: space-evenly;
+}
+
+.button1 {
+  background-color: #fe0000;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.button1 a {
+  font-weight: 500;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.button1 a:hover {
+  color: #55fe00;
+}
+
+.button2 {
+  background-color: #fe0000;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.button2 a {
+  font-weight: 500;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.button2 a:hover {
+  color: #55fe00;
+}
